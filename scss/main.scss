@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.dispaly_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex_dc {
+    flex-direction: column;
+}
+.login-container {
+    margin: 0 auto;
+    max-width: 375px;
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 40px;
+        text-align: center;
+    }
+}
+
+input[type=email], input[type=password] {
+    width: 319px;
+    height: 50px;
+    padding: 18px;
+    margin-bottom: 34px ;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: rgba(236, 241, 244, 0.32);
+    outline: none;
+    border: none;
+}
+input[type=email]:focus, input[type=password]:focus {
+    border: 1px solid #5265E4;
+}
