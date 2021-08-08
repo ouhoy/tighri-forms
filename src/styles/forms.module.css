@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  font-family: poppins;
+  color: #676e8b;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav img {
+width:100px;
+}
+.nav {
+  padding:5px;
+  display: flex;
+  margin-top: 45px;
+  align-items: center;
+  justify-content: center;
+}
+.hide_content {
+  display: none;
+}
+
+
+
+
+
+
+
+.sign_up {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.sign_up h1 {
+  font-weight: 500;
+  color: #1a1a1d;
+}
+
+.sign_up a {
+  text-decoration: underline;
+  color: #5265E4;
+}
+
+.sign_up .sm_ps {
+  margin: 20px;
+  color: #9C9C9D;
+  font-size: 12px;
+  text-align: left;
+}
+.sign_up .md_ps {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  color: #4b4b52;
+  font-size: 14px;
+  text-align: right;
+  font-weight: 500;
+}
+.sign_up .md_ps2 {
+  margin: 15px;
+  color: #4b4b52;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+}
+.sign_up .red_ps {
+  color: #FF2E54;
+  margin-left:10px ;
+  font-size: 14px;
+  text-align: left;
+}
+.greenOutput {
+ background-color:#a0f0bf ; 
+ color:#206a3c ;
+ border: 2px solid #206a3c; 
+ border-radius: 3px;
+ margin: 0 10px;
+}
+
+.greenOutput p {
+  padding: .7rem;
+}
+
+.info_div {
+  background-color: #F9FAFB;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #494962;
+  padding: 10px;
+  margin: 10px 0 ;
+}
+.info_div p {
+  text-align: left;
+
+}
+
+.info_div li  {
+ color: #6D6D6D;
+ font-size: 12px;
+ text-align: left;
+}
+
+.auth_methods {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+} 
+.sign_up .auth_methods .google {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #E9E9E9;
+  width: 95%;
+  height: 50px;
+  border-radius: 3px;
+  color: #000000;
+  transition: all .2s ease-in-out;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 10px;
+  padding: 0 60px;
+}
+
+
+.sign_up .google img {
+  width: 25px;
+}
+.google_span {
+  color: white;
+  display: inline;
+  width: 10%;
+
+}
+
+.google:hover {
+  cursor: pointer;
+}
+
+.sign_up h3 hr{
+  background-color: #d3d3d3;
+  border: .3 solid #d3d3d3;
+  margin: 5px;
+}
+.or_methods {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+
+}
+.or_methods p {
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  margin: 0 10px;
+
+}
+.or_methods_div {
+  background-color: #E9E9E9;
+  width: 25%;
+  height: 2px;
+
+}
+
+.sign_up .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #d3d3d3;
+}
+
+.sign_up .form input {
+  margin: 10px;
+  outline: none;
+  padding: 0 12px;
+  height: 50px;
+  -webkit-box-shadow: 0px 0px 1px #d3d3d3;
+          box-shadow: 0px 0px 1px #d3d3d3;
+  border: 1px solid #ebebeb;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+
+.sign_up .form input:focus {
+  border: 2px solid #5265E4;
+}
+
+.sign_up .form .btn_container {
+  position: relative;
+}
+
+.testing {
+  width: 50px;
+  height: 50px;
+  background: red;
+}
+
+.sign_up .form .btn_container .loading_btn {
+  position: absolute;
+  top: 32%;
+  right: 48%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-animation: loading-btn .4s ease-in-out 0s infinite;
+          animation: loading-btn .4s ease-in-out 0s infinite;
+}
+.sign_up .form .btn_container .loading_btn3 {
+  position: absolute;
+  top: 59%;
+  right: 48%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-animation: loading-btn .4s ease-in-out 0s infinite;
+          animation: loading-btn .4s ease-in-out 0s infinite;
+}
+.sign_up .form .btn_container .loading_btn4 {
+  position: absolute;
+  top: 59%;
+  right: 48%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #ffffff6c;
+}
+.sign_up .form .btn_container .loading_btn2 {
+  position: absolute;
+  top: 32%;
+  right: 48%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #ffffff6c;
+}
+
+.sign_up .form button {
+  background: #5265E4;
+  border: none;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 3px;
+  line-height: 18px;
+  padding: 15px 24px;
+  width: 96%;
+  margin: 5px auto;
+  transition: background-color .2s ease-in-out;
+
+}
+.sign_up .form button:hover,
+.sign_up .form button:focus{
+  background-color: #344ffd;
+  cursor: pointer;
+}
+.sign_up .form .button_hide {
+  color:#5340ff00;
+}
+
+.sign_up .form .red_input{
+  border: 2px solid #ff4a6b;
+}
+
+.sign_up .form .red_input:focus {
+  border: 2px solid #FF2E54;
+}
+
+.sign_up label {
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 15px;
+}
+@-webkit-keyframes loading-btn {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  30% {
+    -webkit-transform: rotate(108deg);
+            transform: rotate(108deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  80% {
+    -webkit-transform: rotate(288deg);
+            transform: rotate(288deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-btn {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  30% {
+    -webkit-transform: rotate(108deg);
+            transform: rotate(108deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  80% {
+    -webkit-transform: rotate(288deg);
+            transform: rotate(288deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+::placeholder {
+   color: #A6A7B7;
+}
+/*# sourceMappingURL=main.css.map */
